@@ -1,0 +1,4 @@
+def new_fun(x):
+return (lambda y:x+y)
+t=new_fun(3)
+print(t(3))
